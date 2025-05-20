@@ -50,4 +50,10 @@ let someNum = 33
 let stringNum = String(someNum)
 console.log(stringNum);
 console.log(typeof(stringNum));
- 
+
+//----------------------------------------------------------
+console.log("1" + 2);
+console.log(1 +"2");
+console.log(1 +"2" + 2);
+console.log("1" +2 + 2);
+console.log(1 +2 + "2");

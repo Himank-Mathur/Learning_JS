@@ -27,3 +27,24 @@ const myFunction = function(){
 }
 
 console.log(typeof bigNumber );
+
+
+//-------------------------------------------------------
+
+//stack(used in primitive) , heap memory (non- Primitive)
+
+let myFile = "javascript";
+let myName = myFile;
+myName = "Himank";
+console.log(myFile);
+console.log(myName)
+
+let userOne = {
+    email : "himank@gmail.com",
+    upi : "heyfm@kl"
+}
+
+let userTwo = userOne;
+userTwo.email = "himank123@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
